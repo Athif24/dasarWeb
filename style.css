@@ -11,11 +11,37 @@ body{
 }
 
 /* Latihan 1 */
-.container-satu{
-    width: 800px;
-    margin: 50px;
-    background-color: #fff;
+.container-satu {
+    width: 900px;
+    margin: 550px;
+    background-color: white;
+    background-image: url('img/lambang1.jpeg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Adjust the background-size property as needed */
+    background-repeat: no-repeat;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.sidebar-satu{
+    flex: 1;
+    order: 1;
+    padding: 10px;
+    color: white;
+}
+
+.kolom-utama{
+    flex: 2;
+    order: 2;
+    padding: 10px;
+    color: white;
+}
+
+.sidebar-dua{
+    flex: 1;
+    order: 3;
+    padding: 10px;
+    color: white;
 }
