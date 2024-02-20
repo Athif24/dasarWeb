@@ -23,3 +23,15 @@ body{
     background: lightcyan;
     color: white;
 }
+
+body{
+
+    background: url('bunga2.webp');
+    color: white;
+}
+
+body{
+    background: url(img/tree1.jpg), url(img/field1.png);
+    background-repeat: no-repeat, repeat;
+    color: white;
+}
