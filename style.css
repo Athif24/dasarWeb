@@ -15,5 +15,11 @@ h2{
 #kotak{
     width: 400px;
     color: #fff;
-    background: 50px;
+    background: blue;
+    padding: 50px;
+}
+
+body{
+    background: lightcyan;
+    color: white;
 }
