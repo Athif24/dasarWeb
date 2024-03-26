@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="jquery-3.7.1.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("button").click(function() {
+                    $("#box").load("/dasarWeb/Pertemuan_6/test-content_AJAX1.html");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>
+                Klik tombil dibawah untuk menampilkan konten.
+            </h2>
+            <button type="button">
+                Klik Saya!
+            </button>
+        </div>
+    </body>
+</html>
